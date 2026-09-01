@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Cominc Sans MS", sans-serif;
+}
+
+textarea {
+    height: auto;
+    width: 500px;
+}
+
+.borda {
+    border-style: solid;
+}
+
+.fotos-galeria {
+    display: flex;
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos-galeria img {
+    max-width: 100%;
+    height: auto;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 40%;
+    max-width: 200px;
+    height: auto;
+    margin: 30px;
+}
+
+button{
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+h1{
+    color: white;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.esquerda {
+    flex: 1;
+    text-align: right;
+}
+
+.esquerda img {
+    width: 100%;
+    max-width: 300px;
+    margin: 15px 0;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.direita {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.direita img {
+    width: 100%;
+    max-width: 300px;
+    margin: 15px 0;
+    border-radius: 8px;
+    object-fit: contain;
+}
