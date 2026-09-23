@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
 <title>Barbearia X</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<article>
-    <header>
-      <div class="logo">
-        <img src="img/logo.png" alt="logo">
-        </div>
-       <p>A melhor barbearia do Brasil.</p>
-       <a href="index.html">Inicio</a>
-       <a href="Sobre nós.html">Sobre nós</a>
-       <a href="Contatos.html">Contatos</a>
-       <a href="Galeria.html">Galeria</a>
-       <hr>
-    </header>
-</article>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixador">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" alt="logo" width="50" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Sobre nós.html">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contatos.html">Contatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Galeria.html">Galeria</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<h1>Nossa Missão:</h1>
-<p>Valorizar a autoestima e o estilo de cada pessoa.</p>
-
-<br>
-
-<h1>Nossa Visão:</h1>
-<p>Ser referência em qualidade e atendimento.</p>
-
-<br>
-
-<h1>Nossos Valores:</h1>
-<p>Compromisso, respeito, inovação e excelência.</p>
-
-<br>
-
-<button>Agende seu horário já!</button>
+<div class="p-5 text-center bg-image rounded-3 encaixador" style="
+    background-image: url('img/hero.png');
+    height: 450px;
+  ">
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3">Nosso Objetivo</h1>
+        <h4 class="mb-3">Fazer pessoas felizes e se expressarem com estilo.</h4>
+        <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Chama nois no zap!</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <footer>
   <hr>
   <p>© 2026 Barbearia X. Todos os direitos reservados.</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
